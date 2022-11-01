@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #71b6fd;">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #71b6fd;">
         <div class="container-fluid">
             <a href="#"class="navbar-brand text-white">Zalegram</a>
-            <button type="button">
-                <span class="navbar-toggler-icon text-white" data-bs-toggle="collapse" data-bs-target="#displayMenus" aria-controls="displayMenus" aria-expanded="false" aria-label="Toggle Navigation"></span>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#displaymenus" aria-controls="displaymenus" aria-expanded="false" aria-label="Togglenavigation">
+                <span class="navbar-toggler-icon text-white"></span>
             </button>
             <div class="collapse navbar-collapse" id="displayMenus"> 
                 <div class="navbar-nav">
@@ -26,10 +26,10 @@
             </div>
         </div>
     </nav>
-    <main class="bg-light py-5">
+    <main class="bg-light py-5" style="padding-top: 70px !important;">
         <section class="text-center">
             <h1 class="fw-light">Events Exclusive for you</h1>
-            <p class="fw-light"
+            <p class="fw-light"></p>
                 Bringing events closer to you. On a tap of a  button.
                 Find all events closer to your location.
             </p>
@@ -61,6 +61,46 @@
             <div class="col-lg-3 col-md-6">           
                 <div class="card rounded-0 border-0 shadow">
                     <img src="images/Web-3.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title  fw-light">Web 3 Developer Roadshow 2022 Summit</h5>
+                        <span style="color: #fe7f0a;" class="text-sm-start">Sat, December 10, 10:00 AM</span>
+                        <p class="fw-lighter">
+                            <small>NOIR Gallery • Village Market, Nairobi County</small>
+                        </p>
+                        <a href="#" class="btn  btn-outline-primary rounded-2">RSVP this Event <i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">           
+                <div class="card rounded-0 border-0 shadow">
+                    <img src="images/Software-Development-Bootbamp.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title  fw-light">Software Development Bootcamp</h5>
+                        <span style="color: #fe7f0a;" class="text-sm-start">Sat, December 10, 10:00 AM</span>
+                        <p class="fw-lighter">
+                        <small>NOIR Gallery • Village Market, Nairobi County</small>
+                        </p>
+                        <a href="#" class="btn  btn-outline-primary rounded-2">RSVP this Event <i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">           
+                <div class="card rounded-0 border-0 shadow">
+                    <img src="images/AWS-Re.png" alt="">
+                     <div class="card-body">
+                        <h5 class="card-title  fw-light">AWS Re:Invent Summit</h5>
+                        <span style="color: #fe7f0a;" class="text-sm-start">Mon, Dec 02 2022, 10:00 AM
+                        </span>
+                        <p class="fw-lighter">
+                        <small>Las Vegas , Nevada, USA</small>
+                        </p>
+                        <a href="#" class="btn  btn-outline-primary rounded-2">RSVP this Event <i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">           
+                <div class="card rounded-0 border-0 shadow">
+                    <img src="images/Web-3.png" alt="">
                      <div class="card-body">
                     <h5 class="card-title  fw-light">Web 3 Developer Roadshow 2022 Summit</h5>
                     <span style="color: #fe7f0a;" class="text-sm-start">Sat, December 10, 10:00 AM</span>
@@ -71,45 +111,72 @@
                      </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">           
-                <div class="card rounded-0 border-0 shadow">
-                    <img src="images/Software-Development-Bootbamp.png" alt="">
-                     <div class="card-body">
-                    <h5 class="card-title  fw-light">Software Development Bootcamp</h5>
-                    <span style="color: #fe7f0a;" class="text-sm-start">Sat, December 10, 10:00 AM</span>
-                    <p class="fw-lighter">
-                        <small>NOIR Gallery • Village Market, Nairobi County</small>
-                    </p>
-                    <a href="#" class="btn  btn-outline-primary rounded-2">RSVP this Event <i class="bi bi-box-arrow-up-right"></i></a>
-                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">           
-                <div class="card rounded-0 border-0 shadow">
-                    <img src="images/AWS-Re.png" alt="">
-                     <div class="card-body">
-                    <h5 class="card-title  fw-light">AWS Re:Invent Summit</h5>
-                    <span style="color: #fe7f0a;" class="text-sm-start">Mon, Dec 02 2022, 10:00 AM
-                    </span>
-                    <p class="fw-lighter">
-                        <small>Las Vegas , Nevada, USA</small>
-                    </p>
-                    <a href="#" class="btn  btn-outline-primary rounded-2">RSVP this Event <i class="bi bi-box-arrow-up-right"></i></a>
-                     </div>
-                </div>
         </div> 
-        <div class="col-lg-3 col-md-6">           
-            <div class="card rounded-0 border-0 shadow">
-                <img src="images/Web-3.png" alt="">
-                 <div class="card-body">
-                <h5 class="card-title  fw-light">Web 3 Developer Roadshow 2022 Summit</h5>
-                <span style="color: #fe7f0a;" class="text-sm-start">Sat, December 10, 10:00 AM</span>
+    </div>
+    <!-- ========footer section======= -->
+    <div class="container-fluid footer py-3">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <h4>Zalegram Events</h4>
                 <p class="fw-lighter">
-                    <small>NOIR Gallery • Village Market, Nairobi County</small>
+                    Bring people together through live 
+                    experiences. Discover events that 
+                    match your passions, or create your 
+                    own with online ticketing tools.
                 </p>
-                <a href="#" class="btn  btn-outline-primary rounded-2">RSVP this Event <i class="bi bi-box-arrow-up-right"></i></a>
-                 </div>
             </div>
+            <div class="col-lg-3 col-md-6">
+                <h4>Find Events</h4>
+                <p>
+                    <a href="#" class="text-decoration-none text-white fw-light">Upcoming events</a>
+                </p>
+                <p>
+                    <a href="#" class="text-decoration-none text-white fw-light">Past Event</a>
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4>Quick Links</h4>
+                <ul class="list-group-flush">
+                    <li class="list-group-item">
+                        <a href="#" class="text-decoration-none text-white fw-light">Home</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="text-decoration-none text-white fw-light">About Us</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="text-decoration-none text-white fw-light">Contact Us</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="text-decoration-none text-white fw-light">Contact Support</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4>Let's Connect</h4>
+                <a href="#" class="p-2 me-2 shadow bg-white rounded-4">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="p-2 me-2 shadow bg-white rounded-4">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="p-2 me-2 shadow bg-white rounded-4">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="#" class="p-2 me-2 shadow bg-white rounded-4">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="#" class="p-2 shadow bg-white rounded-4">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                
+            </div>
+        </div>
+        <div class="row">
+            <hr>
+            <small class="text-center">
+                &copy; Company 2022
+            </small>
         </div>
     </div>
 
