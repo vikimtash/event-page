@@ -56,7 +56,7 @@
                     <form>
                         <div class="form-group">
                             <label>Full Name:</label> <br>
-                            <input type="Full Name" class="Input-box bg-light" placeholder="Enter your full name">
+                            <input type="Full Name" class="Form-control bg-light" placeholder="Enter your full name">
                         </div>
                     </form>
                 </div>
@@ -64,7 +64,7 @@
                     <form>
                         <div class="form-group">
                             <label>Email Address:</label> <br>
-                            <input type="Email" class="input-box bg-light" placeholder="Please enter your Email">
+                            <input type="Email" class="Form-control bg-light" placeholder="Please enter your Email">
                         </div>
                     </form>
                 </div>
@@ -72,24 +72,35 @@
                     <form>
                         <div class="form-group">
                             <label>Phone Number:</label> <br>
-                            <input type="Phone Number" class="Input-box bg-light" placeholder="+2547.......">
+                            <input type="Phone Number" class="Form-control bg-light" placeholder="+2547.......">
                         </div>
                     </form>
                 </div>   
                 <div class="col-sm-5">
                     <form>
                         <div class="form-group">
-                            <label>Whats your gender:</label> <br>
-                            <input type="Gender" class="Input-box bg-light" placeholder="--Select your gender--">
+                            <label for="Gender">Whats your gender:</label> <br>                        
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option selected>--Select your Gender--</option>
+                                <option>male</option>
+                                <option>female</option>
+                            </select>
+                            
                         </div>
-                    </form>  
+                    </form>
+                    
                 </div>                  
                        <p class="py-2">
                 In order to complete your registration to the bootcamp, you are required to select one course you will be undertaking. Please NOTE that this will be your learning track during the 2-weeks immersion. 
                </p>
                <div class="col-md-9">
-                    <h3>What's your preffered course</h3>
-                    <input type="course" class="Input-box bg-light" placeholder="--Select your course--">
+                <div class="form-group">
+                    <label for="course">Whats your gender:</label> <br>                        
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option selected>--Select your course--</option>                        
+                    </select>
+                    
+                </div>
                </div>              
                     <p>
                       You agree by providing your information you understand all our data privacy and protection <br> policy outlined in our Terms & condition and the Privacy Policy statements.
@@ -118,7 +129,8 @@
             Explore all the tools you need to start, run, and grow your <br> business with events. Subscribe to get information, latest news about <br>
 Zalegram Events
         </h3>
-            <a href="#" class="text-decoration-none bg-white rounded-0 text-dark p-2 border">Your Email Address</a>
+            
+            <input type="Email" class="Form-control bg-white border rounded-0 p-2" placeholder="Your Email Address">
             <a href="#" class="btn btn-primary rounded-0"><i class="bi bi-envelope-fill"></i> Subscribe</a>
         </div>
     </div>
